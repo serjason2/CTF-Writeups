@@ -1,5 +1,5 @@
 # TryHackMe: 2025 Advent of Cyber (Day 1)
-**Room Name**: Linux CLI - Shell Bells (my own notes)
+**Room Name**: Linux CLI - Shell Bells (my own notes w/ some provided notes via THM room)
 
 ### Introduction
 - **tbfc-web01** - a Linux server processing Christmas wishlists
