@@ -19,7 +19,7 @@
 - Blue Team - See how AI can be used to analyse logs
 - Software Security - Harness the power of AI to review source code and identify how vulnerabilities are introduced
 
-**<mark>Red Team</mark>**
+**<mark>Red Team</mark>**<br>
 The vulnerability exists because the SQL injection attack exploits the username field to execute malicious SQL code. The username field is vulnerable to SQL injection when an attacker can manipulate the input to include malicious SQL syntax. The OR clause in the username field allows the attacker to include any SQL query, even if the password is not used. This makes the login page susceptible to unauthorized access. 
 
 The vulnerability exists because the SQL injection attack is triggered by the username field, which allows attackers to input malicious SQL code. The username field is a string, so when the attacker inputs a username like "alice", the SQL statement is executed as "alice' OR 1=1 -- -". This simple OR condition makes the vulnerability very basic, but it's intentional for educational purposes. To save the script, follow these steps:
